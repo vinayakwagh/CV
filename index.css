@@ -1,0 +1,236 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+  /* background-color: black; */
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.nav-item {
+  padding: 20px 20px;
+}
+.tech {
+  /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-top: 6rem;
+  margin-bottom: -1px;
+}
+.nav-link {
+  color: black;
+  font-size: 1.5rem;
+}
+.hello {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  color: #0c9fa6;
+  font-size: 3rem;
+}
+.about {
+  text-align: center;
+
+  margin-top: 2rem;
+}
+.main-heading {
+  font-family: "Antonio", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+.sub-heading {
+  font-weight: bold;
+  line-height: 3rem;
+}
+.skills {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.btn {
+  width: 20rem;
+}
+
+.nav-link:hover {
+  background-color: #0c9fa6;
+  border-radius: 12px;
+  color: white;
+}
+.ski {
+  background-color: #59c1bd;
+}
+.logo {
+  height: 3rem;
+  width: 3rem;
+  /* padding: 50px 50px; */
+}
+@media (max-width: 1028px) {
+  .main-heading {
+    font-size: 3rem;
+  }
+  .hello {
+    font-size: 2rem;
+  }
+  .sub-heading {
+    font-weight: 1rem;
+  }
+  .skills {
+    font-size: 1rem;
+  }
+  .btn {
+    width: 10rem;
+  }
+  .im1 {
+    margin-top: 2rem;
+  }
+  .tech {
+    font-size: 2rem;
+    margin-top: none;
+  }
+}
+/* .navbar-brand {
+  position: relative;
+  animation-name: tejas;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-duration: 8s;
+}
+@keyframes tejas {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 250px;
+    left: 0px;
+  }
+  75% {
+    top: 250px;
+    left: 250px;
+  }
+  100% {
+    top: 0px;
+    left: 250px;
+  }
+} */
+.card
+{
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding:-0px; */
+}
+@media (max-width: 1028px) {
+  @keyframes tejas {
+    0% {
+      top: 0px;
+      left: 0px;
+    }
+    25% {
+      top: 250px;
+      left: 0px;
+    }
+    75% {
+      top: 250px;
+      left: 250px;
+    }
+    100% {
+      top: 0px;
+      left: 250px;
+    }
+  }
+}
+.vinayak-img {
+  border-radius: 12px;
+  background-color: #5b94fd;
+}
+.pasage {
+  font-size: 1.5rem;
+  color: white;
+}
+.vinayak-heading {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+.about-heading {
+  font-weight: 900;
+  margin-top: 5rem;
+  color: white;
+}
+.card-img-top {
+  height: 10rem;
+  width: 35%;
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-img-top:hover
+{
+    width: 50%;
+    /* height: 100%; */
+}
+#features
+{
+   padding: 7% 7%;
+   background-color: white;
+   /* margin-top: 5rem; */
+
+}
+#table
+{
+  margin-top: 5rem;
+}
+.feature-box
+{
+    text-align: center;
+    padding: 4.5%;
+
+}
+.feature-box:hover
+{
+  color: white;
+}
+
+
+@media (max-width: 1028px) {
+  .pasage {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .vinayak-heading {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    /* text-align: center; */
+  }
+  .about-heading {
+    font-weight: 900;
+    margin-top: 5rem;
+    line-height: 2rem;
+    /* text-align: center; */
+  }
+}
+.h1
+{
+   font-weight: 900; 
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Ubuntu', sans-serif;
+   margin-top: 5rem;
+   font-size: 3rem;
+}
+.p
+{
+  font-size: medium;
+}
